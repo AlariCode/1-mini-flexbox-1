@@ -23,3 +23,15 @@ body {
 	width: calc(100% / 3);
 	padding: 10px;
 }
+
+.item9 {
+	order: -1;
+}
+
+.item2 {
+	order: 1;
+}
+
+.item4 {
+	order: 2;
+}
