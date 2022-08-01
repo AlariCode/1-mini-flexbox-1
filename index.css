@@ -1,0 +1,17 @@
+body {
+	background: #1c1b21;
+	color: #FAFAFA;
+	font-size: 55px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+	border: 10px solid #6c38cc;
+}
+
+.item {
+	background: #232228;
+	border: 1px solid #6c38cc ;
+	text-align: center;
+	padding: 10px;
+}
