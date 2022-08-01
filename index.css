@@ -7,6 +7,7 @@ body {
 
 .container {
 	border: 10px solid #6c38cc;
+	display: flex;
 }
 
 .item {
