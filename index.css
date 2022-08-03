@@ -12,26 +12,22 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: center;
+	align-items: baseline;
 }
 
 .item {
 	background: #232228;
 	border: 1px solid #6c38cc;
 	text-align: center;
-	width: calc(100% / 3);
 	padding: 10px;
 }
 
-.item9 {
-	order: -1;
-}
-
-.item2 {
-	order: 1;
-}
-
 .item4 {
-	order: 2;
+	font-size: 40px;
+}
+
+.item8 {
+	font-size: 120px;
 }
