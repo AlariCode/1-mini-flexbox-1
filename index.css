@@ -12,22 +12,17 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
+	flex-wrap: wrap;
 	height: 100vh;
-	justify-content: center;
-	align-items: baseline;
+	flex-direction: column;
+	justify-content: right;
+	align-content: space-around;
 }
 
 .item {
 	background: #232228;
 	border: 1px solid #6c38cc;
 	text-align: center;
+	width: calc(100% / 3);
 	padding: 10px;
-}
-
-.item4 {
-	font-size: 40px;
-}
-
-.item8 {
-	font-size: 120px;
 }
