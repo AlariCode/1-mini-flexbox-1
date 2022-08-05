@@ -12,6 +12,9 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100vh;
 }
 
 .item {
@@ -20,12 +23,9 @@ body {
 	text-align: center;
 	padding: 10px;
 	flex-basis: 300px;
+	flex-grow: 1;
 }
 
-.item1 {
-	flex: 1 1 300px;
-}
-
-.item2 {
-	flex: 5 10 100px;
+.item4 {
+	flex-grow: 15;
 }
