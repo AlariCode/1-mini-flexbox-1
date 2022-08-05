@@ -12,9 +12,6 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
-	height: 100vh;
-	flex-direction: column;
-	align-items: flex-start;
 }
 
 .item {
@@ -24,6 +21,6 @@ body {
 	padding: 10px;
 }
 
-.item2 {
-	align-self: center;
+.item {
+	flex: 1;
 }
