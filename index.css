@@ -19,8 +19,13 @@ body {
 	border: 1px solid #6c38cc;
 	text-align: center;
 	padding: 10px;
+	flex-basis: 300px;
 }
 
-.item {
-	flex: 1;
+.item1 {
+	flex: 1 1 300px;
+}
+
+.item2 {
+	flex: 5 10 100px;
 }
