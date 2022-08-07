@@ -13,7 +13,8 @@ body {
 	border: 10px solid #6c38cc;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
+	flex-direction: column;
+	height: 200vh;
 }
 
 .item {
@@ -21,5 +22,8 @@ body {
 	border: 1px solid #6c38cc;
 	text-align: center;
 	padding: 10px;
-	flex: 0 1 calc(100% / 4 - 20px * 3 / 4);
+}
+
+.item0 {
+	margin-top: auto;
 }
