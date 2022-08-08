@@ -24,6 +24,8 @@ body {
 	border-radius: 12px;
 	max-width: 1440px;
 	margin: 0 auto;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 .card__name {
@@ -68,4 +70,22 @@ body {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 120%;
+}
+
+@media screen and (max-width: 600px) {
+	.card__stats {
+		flex-wrap: wrap;
+		row-gap: 20px;
+		flex: 1;
+	}
+
+	.card__stat {
+		flex: 0 1 calc(100% / 2 - 12px);
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.card__stat {
+		flex: 0 1 100%;
+	}
 }
